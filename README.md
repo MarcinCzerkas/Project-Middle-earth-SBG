@@ -30,7 +30,7 @@ like!). Secondly, because I wanted to use this opportunity to showcase my skills
 - **DAX** - Data Analysis Expressions language that allowed me to write measures and queries inside of Power BI
 
 ![Data Model](/Photos/Data%20Model.png)
-*Data Model I created for this project. It was originally set up in PostgreSQL, then imported and managed in Power BI Desktop*
+*Data Model I created for this project. It was originally set up in PostgreSQL, then imported and managed in Power BI Desktop. See the last section ([Retrospective](#retrospective)) for more context.*
 
 # The Analysis - Key Insights
 
@@ -58,3 +58,7 @@ in building dashboards.📊
 
 Working on this project has been great fun for me. I could test my skills and keep learning new ones. Can’t wait to do 
 more similar projects!🎉
+
+# Retrospective
+
+Looking back at this project after some time (Jan 2026), I realized that one of the major design mistakes was the decision to keep the data model fully normalized. While this approach felt academically correct at the time, revisiting the project with more experience made it clear that such a schema was poorly suited for analytical use cases and downstream consumption in Power BI. The level of normalization significantly increased query complexity and would have required unnecessary transformations to support efficient reporting. Although the project was not further developed, this retrospective review became a valuable lesson in choosing data models that align with the intended purpose—particularly the trade-offs between normalization and usability in analytics-focused systems.
