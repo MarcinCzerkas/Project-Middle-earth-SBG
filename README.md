@@ -62,3 +62,5 @@ more similar projects!🎉
 # Retrospective
 
 Looking back at this project after some time (Jan 2026), I realized that one of the major design mistakes was the decision to keep the data model fully normalized. While this approach felt academically correct at the time, revisiting the project with more experience made it clear that such a schema was poorly suited for analytical use cases and downstream consumption in Power BI. The level of normalization significantly increased query complexity and would have required unnecessary transformations to support efficient reporting. Although the project was not further developed, this retrospective review became a valuable lesson in choosing data models that align with the intended purpose—particularly the trade-offs between normalization and usability in analytics-focused systems.
+
+![](https://komarev.com/ghpvc/?username=MarcinCzerkas&style=flat-square&label=VIEWS&style=pixel)
